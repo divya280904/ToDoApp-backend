@@ -13,7 +13,7 @@ const app= express();
 
 connectDB();
 
-const allowedOrigins = ['http://localhost:5173', 'https://todoodle-rho.vercel.app'];
+const allowedOrigins = ['http://localhost:5173', 'https://to-doodle-peach.vercel.app'];
 
 app.use(cors({
   origin: allowedOrigins,
